@@ -13,18 +13,7 @@
 		64647F8C1B4FFF1D00D23B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64647F8A1B4FFF1D00D23B3A /* Main.storyboard */; };
 		64647F8E1B4FFF1D00D23B3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64647F8D1B4FFF1D00D23B3A /* Images.xcassets */; };
 		64647F911B4FFF1D00D23B3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64647F8F1B4FFF1D00D23B3A /* LaunchScreen.xib */; };
-		64647F9D1B4FFF1E00D23B3A /* DebuggingJavaScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64647F9C1B4FFF1E00D23B3A /* DebuggingJavaScriptTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		64647F971B4FFF1E00D23B3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64647F751B4FFF1D00D23B3A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64647F7C1B4FFF1D00D23B3A;
-			remoteInfo = DebuggingJavaScript;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		64647F7D1B4FFF1D00D23B3A /* DebuggingJavaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebuggingJavaScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		64647F8B1B4FFF1D00D23B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64647F8D1B4FFF1D00D23B3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64647F901B4FFF1D00D23B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		64647F961B4FFF1E00D23B3A /* DebuggingJavaScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuggingJavaScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64647F9B1B4FFF1E00D23B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64647F9C1B4FFF1E00D23B3A /* DebuggingJavaScriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebuggingJavaScriptTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		64647F7A1B4FFF1D00D23B3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64647F931B4FFF1E00D23B3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				64647F7F1B4FFF1D00D23B3A /* DebuggingJavaScript */,
-				64647F991B4FFF1E00D23B3A /* DebuggingJavaScriptTests */,
 				64647F7E1B4FFF1D00D23B3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				64647F7D1B4FFF1D00D23B3A /* DebuggingJavaScript.app */,
-				64647F961B4FFF1E00D23B3A /* DebuggingJavaScriptTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		64647F991B4FFF1E00D23B3A /* DebuggingJavaScriptTests */ = {
-			isa = PBXGroup;
-			children = (
-				64647F9C1B4FFF1E00D23B3A /* DebuggingJavaScriptTests.m */,
-				64647F9A1B4FFF1E00D23B3A /* Supporting Files */,
-			);
-			path = DebuggingJavaScriptTests;
-			sourceTree = "<group>";
-		};
-		64647F9A1B4FFF1E00D23B3A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				64647F9B1B4FFF1E00D23B3A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = 64647F7D1B4FFF1D00D23B3A /* DebuggingJavaScript.app */;
 			productType = "com.apple.product-type.application";
 		};
-		64647F951B4FFF1E00D23B3A /* DebuggingJavaScriptTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64647FA31B4FFF1E00D23B3A /* Build configuration list for PBXNativeTarget "DebuggingJavaScriptTests" */;
-			buildPhases = (
-				64647F921B4FFF1E00D23B3A /* Sources */,
-				64647F931B4FFF1E00D23B3A /* Frameworks */,
-				64647F941B4FFF1E00D23B3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				64647F981B4FFF1E00D23B3A /* PBXTargetDependency */,
-			);
-			name = DebuggingJavaScriptTests;
-			productName = DebuggingJavaScriptTests;
-			productReference = 64647F961B4FFF1E00D23B3A /* DebuggingJavaScriptTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +110,6 @@
 				TargetAttributes = {
 					64647F7C1B4FFF1D00D23B3A = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					64647F951B4FFF1E00D23B3A = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 64647F7C1B4FFF1D00D23B3A;
 					};
 				};
 			};
@@ -189,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				64647F7C1B4FFF1D00D23B3A /* DebuggingJavaScript */,
-				64647F951B4FFF1E00D23B3A /* DebuggingJavaScriptTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +139,6 @@
 				64647F8C1B4FFF1D00D23B3A /* Main.storyboard in Resources */,
 				64647F911B4FFF1D00D23B3A /* LaunchScreen.xib in Resources */,
 				64647F8E1B4FFF1D00D23B3A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64647F941B4FFF1E00D23B3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64647F921B4FFF1E00D23B3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64647F9D1B4FFF1E00D23B3A /* DebuggingJavaScriptTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		64647F981B4FFF1E00D23B3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64647F7C1B4FFF1D00D23B3A /* DebuggingJavaScript */;
-			targetProxy = 64647F971B4FFF1E00D23B3A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		64647F8A1B4FFF1D00D23B3A /* Main.storyboard */ = {
@@ -365,40 +279,6 @@
 			};
 			name = Release;
 		};
-		64647FA41B4FFF1E00D23B3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DebuggingJavaScriptTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebuggingJavaScript.app/DebuggingJavaScript";
-			};
-			name = Debug;
-		};
-		64647FA51B4FFF1E00D23B3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DebuggingJavaScriptTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebuggingJavaScript.app/DebuggingJavaScript";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,14 +298,7 @@
 				64647FA21B4FFF1E00D23B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		64647FA31B4FFF1E00D23B3A /* Build configuration list for PBXNativeTarget "DebuggingJavaScriptTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64647FA41B4FFF1E00D23B3A /* Debug */,
-				64647FA51B4FFF1E00D23B3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
